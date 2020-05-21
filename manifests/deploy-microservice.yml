@@ -8,7 +8,7 @@ metadata:
     name: wild-damage-microservice
     namespace: microservices
 spec:
-    replicas: 3
+    replicas: 4
     selector:
         matchLabels:
             run: wild-damage-microservice
